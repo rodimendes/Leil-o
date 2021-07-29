@@ -13,16 +13,16 @@ def verificador(verificador_vencedor):
     return apostador, maior
 
 print(art.logo)
-print("Welcome to the secret auction program.")
+print("Bem-vindo à casa de leilões.")
 
 apostadores = {}
 
 continuar = True
 while continuar:
-    nome = input("What is your name?: ")
-    bid = int(input("What's your bid? $"))
-    apostadores[nome] = bid
-    resposta = input("Are there any other bidders? Type 'yes' or 'no'\n").lower()
+    nome = input("Qual seu nome?: ")
+    aposta = int(input("Qual sua aposta? $"))
+    apostadores[nome] = aposta
+    resposta = input("Mais algum apostador? Type 'sim' or 'não'\n").lower()
     if resposta[0] == 'n':
         continuar = False
     else:
