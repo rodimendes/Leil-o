@@ -3,6 +3,8 @@ import art
 #HINT: You can call clear() to clear the output in the console.
 
 def verificador(verificador_vencedor):
+    """Retorna o maior valor e o respectivo apostador
+    """
     maior = 0
     apostador = ""
 
